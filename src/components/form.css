@@ -1,0 +1,130 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #02021c;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+    
+}
+.container{
+    box-shadow: 0px -25px 20px -20px
+     rgba(0, 0, 0, 0.45), 
+     0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+     -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+     width: 500px;
+     height: 500px;
+     padding: 100px; 
+     margin-top: 80px;
+     margin-left: 800px;
+     margin-bottom: 100px;
+   
+      
+}
+
+.button{
+   
+/* CSS */
+ 
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+ 
+
+body{ margin:0 auto; }
+
+label{  color: teal;font-weight: 500;margin: 30px;font-size:larger;}
+
+ 
+  input{
+
+     
+    position: relative;
+    margin: auto;
+    width:250px;
+    height: 25px;
+    max-width: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+     
+    
+  }
+
+  .email{
+    margin-left: 33px;
+  }
+  .name{
+    margin-right: 5px;
+  }
+
+.field{
+    display: flex;
+    display: block;
+}
+.ui message success{
+    position: relative;
+  top: 10;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  cursor: hand;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 400;
+}
